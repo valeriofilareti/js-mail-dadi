@@ -12,6 +12,8 @@ console.log(userMail);
 
 console.log(mailAutorizzate);
 
-// for(i = 0; i<mailAutorizzate.length; i++) {
-
-// }
+for(i = 0; i<mailAutorizzate.length; i++) {
+  if(userMail === mailAutorizzate[i]){
+    console.log('yes')
+  }
+}
