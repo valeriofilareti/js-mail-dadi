@@ -17,3 +17,5 @@ Stabilire il vincitore, in base a chi fa il punteggio più alto.
 
 ## Dadi-Svolgimento
 1) inserisco in un array le facce del dado
+2) genero due numeri casuali dallo 0 al 5 che corrispondono all'indice della specifica faccia del dado
+
