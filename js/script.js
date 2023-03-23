@@ -6,7 +6,7 @@ const mailAutorizzate = [
   'ed@gm.com'
 ]
 
-const userMail = prompt('inserisci la tua mail')
+//const userMail = prompt('inserisci la tua mail')
 
 console.log(userMail);
 
@@ -17,3 +17,8 @@ for(i = 0; i<mailAutorizzate.length; i++) {
     console.log('yes')
   }
 }
+
+// dadi
+
+const dadoFacce = [1, 2, 3, 4, 5, 6];
+

@@ -15,3 +15,5 @@ stampa un messaggio appropriato sull’esito del controllo.
 Generare un numero random da 1 a 6, sia per il giocatore sia per il computer.
 Stabilire il vincitore, in base a chi fa il punteggio più alto.
 
+## Dadi-Svolgimento
+1) inserisco in un array le facce del dado
