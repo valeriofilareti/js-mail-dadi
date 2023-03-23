@@ -5,4 +5,13 @@ const mailAutorizzate = [
   'fi@gm.com',
   'ed@gm.com'
 ]
-console.log(mailAutorizzate)
+
+const userMail = prompt('inserisci la tua mail')
+
+console.log(userMail);
+
+console.log(mailAutorizzate);
+
+// for(i = 0; i<mailAutorizzate.length; i++) {
+
+// }
