@@ -16,6 +16,6 @@ Generare un numero random da 1 a 6, sia per il giocatore sia per il computer.
 Stabilire il vincitore, in base a chi fa il punteggio più alto.
 
 ## Dadi-Svolgimento
-1) inserisco in un array le facce del dado
-2) genero due numeri casuali dallo 0 al 5 che corrispondono all'indice della specifica faccia del dado
+1) genero due numeri casuali dall'1 al 6 
+2) Stabilisco il vincitore con una dichiarazione condizionale
 

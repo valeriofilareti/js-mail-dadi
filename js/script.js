@@ -6,23 +6,36 @@ const mailAutorizzate = [
   'ed@gm.com'
 ]
 
-const userMail = prompt('inserisci la tua mail')
+const userMail = 'sy@gm.com' //prompt('inserisci la tua mail')
+
+let mailTrovata = false
 
 for(i = 0; i<mailAutorizzate.length; i++) {
   if(userMail === mailAutorizzate[i]){
-    console.log('yes')
+    mailTrovata = true;
   }
+}
+
+if(mailTrovata){
+  console.log('yes')
+}else{
+  console.log('no')
 }
 
 
 // dadi
 
+const num = Math.ceil(Math.random() * 6);
+const num2 = Math.ceil(Math.random() * 6);
 
-const dadoFacce = [1, 2, 3, 4, 5, 6];
+console.log(num, num2);
 
-const num = Math.floor(Math.random() * dadoFacce.length);
-const num2 = Math.floor(Math.random() * dadoFacce.length);
+if(num > num2) {
+  console.log('hai vinto');
+}else if(num < num2) {
+  console.log('hai perso')
+}else{
+  console.log('hai pareggiato');
+}
 
-console.log(dadoFacce[num]);
-console.log(dadoFacce[num2]);
 
